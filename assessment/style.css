@@ -1,0 +1,66 @@
+.grid{display: grid;
+    width: 100%
+    grid: auto auto auto auto auto auto auto/ auto auto auto auto
+        border: none;
+    gap:5px;
+         }
+
+   .grid> div{background-color: #ffc600;
+        border: 1px none;
+        padding: 20px;
+        text-align: center;
+        } 
+
+    .item1{
+        grid-template-columns: 20% 20% 20% 20% 20%
+            }
+
+    .item2{
+        grid-row: 2 / 66%;
+       
+    }
+
+    .taco{
+        grid-row: 2;
+    }
+
+    .kom{
+        grid-row: 3;
+    }       
+
+    .icons{
+        grid-row:4;
+        grid-template-columns: 25% 25% 25% 25%
+    }
+
+    .bigtaco{
+        grid-row: 3 / span 2;
+        grid-template-columns: 1 / span 4;
+        background-color: white;
+    }
+
+    .footer{
+        grid-row: 6 / span 4;
+    }
+
+    h2{
+        color: black;
+        color:black;
+        text-transform: uppercase;
+        font-size: 8px;
+    }
+    h3{
+        color: black;
+        font-size: 30px;
+    }
+
+    p {
+        color: black;
+        font-size: 10px;
+    }
+
+#ttj {
+       font-size:medium;
+}
+    
+
